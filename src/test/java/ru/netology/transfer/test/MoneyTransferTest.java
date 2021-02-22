@@ -22,7 +22,7 @@ public class MoneyTransferTest {
         val dashBoard = VerificationPage.validVerify(VerificationCode);
         val balance1 = dashBoard.getCardBalance(card1);
         val balance2 = dashBoard.getCardBalance(card2);
-        double addition = 5000.50;
+        double addition = 5000.0;
         dashBoard.additionToCard(card2, card1, addition);
         assertEquals(balance1-addition, dashBoard.getCardBalance(card1),0);
         assertEquals(balance2+addition, dashBoard.getCardBalance(card2),0);
