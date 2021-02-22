@@ -1,6 +1,5 @@
 package ru.netology.transfer.page;
 
-import com.codeborne.selenide.Condition;
 import ru.netology.transfer.data.DataHelper;
 
 import static com.codeborne.selenide.Selenide.$;

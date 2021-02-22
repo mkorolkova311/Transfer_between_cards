@@ -1,8 +1,7 @@
 package ru.netology.transfer.page;
 
-import com.codeborne.selenide.Condition;
+
 import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.Selectors;
 import lombok.val;
 import org.openqa.selenium.Keys;
 
